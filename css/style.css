@@ -27,6 +27,14 @@
   background-color: #F3F5F9;
 }
 
+/* Fix classes */
+.spacing_fix {
+  font-size: 0;
+}
+
+:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
 
 /* TYPO */
 a:focus {
@@ -60,12 +68,6 @@ a:hover {
 .arrow_link::after {
   content: "\003E";
   margin-left: 8px;
-}
-
-
-/* Fix classes */
-.spacing_fix {
-  font-size: 0;
 }
 
 /* Responsive */
@@ -119,4 +121,53 @@ a:hover {
     flex-basis: calc(50% - 50px);
     max-width: 250px;
   }
+}
+
+/* Deploy section */
+.deploy_section {
+  padding: 40px 0;
+}
+
+.deploy_box--flex {
+  flex-direction: row;
+  padding: 60px 110px 0 ;
+}
+
+.features_buttons {
+  flex-basis: 30%;
+  text-align: left;
+}
+
+.features_container {
+  flex-basis: 70%;
+  flex-wrap: wrap;
+}
+
+.features_box {
+  flex-basis: 50%;
+}
+
+.deploy_section ul {
+  list-style: none;
+  margin-bottom: 40px;
+  padding-left: 0;
+}
+
+.deploy_section ul button {
+  color: #6E7993;
+  background-color: transparent;
+  border: none;
+  padding: 10px 10px;
+  border-left: 1px solid lightgrey;
+  font-size: 18px;
+}
+
+.deploy_section ul button:hover {
+  color: black;
+  border-left: 1px solid black;
+}
+
+.deploy_section ul button:focus {
+  color: black;
+  border-left: 1px solid black;
 }
