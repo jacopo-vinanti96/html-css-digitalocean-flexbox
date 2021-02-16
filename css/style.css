@@ -37,6 +37,14 @@
 }
 
 /* TYPO */
+h2 {
+  font-size: 35px;
+}
+
+h2 ~ p {
+  font-size: 20px;
+}
+
 a:focus {
   text-decoration: none;
 }
@@ -51,6 +59,10 @@ a:hover {
 
 .text--lg-color {
   color: #6E7993;
+}
+
+.textg_color {
+  color: #68748F;
 }
 
 .text--size-normal {
@@ -89,6 +101,8 @@ a:hover {
   }
 }
 
+/* HEADER */
+
 /* Sponsors */
 .sponsors {
   padding: 30px 0;
@@ -122,6 +136,8 @@ a:hover {
     max-width: 250px;
   }
 }
+
+/* MAIN */
 
 /* Deploy section */
 .deploy_section {
